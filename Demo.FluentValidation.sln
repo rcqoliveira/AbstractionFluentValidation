@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidation", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidationTest", "Demo.FluentValidationTest\Demo.FluentValidationTest.csproj", "{055E1308-76B2-497F-B3C3-58B5E0776689}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidationDomain", "Demo.FluentValidationDomain\Demo.FluentValidationDomain.csproj", "{4723EDE9-D3F3-4487-8CA4-4676B1B84393}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidation.Domain", "Demo.FluentValidationDomain\Demo.FluentValidation.Domain.csproj", "{4723EDE9-D3F3-4487-8CA4-4676B1B84393}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.FluentValidador.Validator", "Demo.FluentValidador.Validator\Demo.FluentValidador.Validator.csproj", "{1D3203D6-3306-4AF7-8ABA-9006DBBF169D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.FluentValidation.Validator", "Demo.FluentValidador.Validator\Demo.FluentValidation.Validator.csproj", "{1D3203D6-3306-4AF7-8ABA-9006DBBF169D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

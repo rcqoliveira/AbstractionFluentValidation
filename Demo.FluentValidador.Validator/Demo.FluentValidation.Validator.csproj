@@ -1,16 +1,15 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Demo.FluentValidation.Validator</RootNamespace>
+    <AssemblyName>Demo.FluentValidation.Validator</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FluentValidation" Version="8.6.2" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Demo.FluentValidationDomain\Demo.FluentValidation.Domain.csproj" />
+    <ProjectReference Include="..\Demo.FluentValidation\Demo.FluentValidation.csproj" />
   </ItemGroup>
 
 </Project>

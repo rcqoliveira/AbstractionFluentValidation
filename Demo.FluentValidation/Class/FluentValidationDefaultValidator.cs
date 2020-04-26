@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 using System.Linq.Expressions;
 
-namespace Demo.FluentValidation.Class
+namespace Demo.FluentValidation
 {
     public static class FluentValidationDefaultValidator
     {
