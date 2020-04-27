@@ -8,7 +8,7 @@ namespace Demo.FluentValidation
 {
     public abstract class Validator<T> : AbstractValidator<T>, Interface.IValidator<T>
     {
-        private ValidationResult ValidationResult;
+        private global::FluentValidation.Results.ValidationResult ValidationResult;
 
         public bool IsValid
         {
@@ -28,10 +28,10 @@ namespace Demo.FluentValidation
             ValidationResult = base.Validate(instance);
         }
 
-        public new ValidationResultDto Validate(T instance)
+        public new Class.ValidationResult Validate(T instance)
         {
             BuildValidate(instance);
-            return ValidationResultDto.Build(GetError());
+            return Class.ValidationResult.Build(GetError());
         }
 
         

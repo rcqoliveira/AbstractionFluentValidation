@@ -24,5 +24,13 @@ namespace Demo.FluentValidationTest
             _validator.Validate(employee);
             Assert.IsTrue(_validator.IsValid);
         }
+
+        [Test]
+        public void WhenHaveCompany_ShouldHaveError()
+        {
+            var employee = new Employee();
+            _validator.Validate(employee);
+            Assert.IsFalse(_validator.IsValid);
+        }
     }
 }

@@ -3,19 +3,20 @@ using System.Linq;
 
 namespace Demo.FluentValidation.Class
 {
-    public class ValidationResultDto
+    public class ValidationResult
     {
-        public ValidationResultDto(IEnumerable<string> errors)
+        public ValidationResult(IEnumerable<string> errors)
         {
             Errors = errors;
         }
 
-        private ValidationResultDto()
+        private ValidationResult()
         {
 
         }
 
         public IEnumerable<string> Errors { get; private set; }
+
         public bool IsValid
         {
             get
@@ -24,9 +25,9 @@ namespace Demo.FluentValidation.Class
             }
         }
 
-        public static ValidationResultDto Build(IEnumerable<string> errors)
+        public static ValidationResult Build(IEnumerable<string> errors)
         {
-            return new ValidationResultDto(errors);
+            return new ValidationResult(errors);
         }
 
 

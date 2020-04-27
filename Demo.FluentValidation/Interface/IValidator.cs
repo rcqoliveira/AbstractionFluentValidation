@@ -6,7 +6,7 @@ namespace Demo.FluentValidation.Interface
     public interface IValidator<T>
     {
         bool IsValid { get; }
-        ValidationResultDto Validate(T instance);
+        ValidationResult Validate(T instance);
         IEnumerable<string> GetError();
     }
 }
