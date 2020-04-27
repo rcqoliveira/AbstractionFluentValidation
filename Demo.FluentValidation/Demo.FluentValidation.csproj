@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Demo.FluentValidationDomain\Demo.FluentValidation.Domain.csproj" />
+    <ProjectReference Include="..\Demo.FluentValidationDomain\Demo.FluentValidationDomain.csproj" />
   </ItemGroup>
 
 </Project>

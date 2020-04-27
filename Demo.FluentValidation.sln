@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidation", "De
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidationTest", "Demo.FluentValidationTest\Demo.FluentValidationTest.csproj", "{055E1308-76B2-497F-B3C3-58B5E0776689}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidation.Validator", "Demo.FluentValidador.Validator\Demo.FluentValidation.Validator.csproj", "{1D3203D6-3306-4AF7-8ABA-9006DBBF169D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidationDomain", "Demo.FluentValidationDomain\Demo.FluentValidationDomain.csproj", "{8050A19A-9FE2-4839-9114-D72A90B2F573}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.FluentValidation.Domain", "Demo.FluentValidation.Domain\Demo.FluentValidation.Domain.csproj", "{A1FA6C8D-2813-4035-941C-AD6CAFC979EB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{6F8B499A-D5C3-474B-8506-2C92309CC44E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.FluentValidationValidatorTest", "Demo.FluentValidationValidatorTest\Demo.FluentValidationValidatorTest.csproj", "{32AB85C4-30E0-409B-87DD-5A4EB0046697}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,17 +27,21 @@ Global
 		{055E1308-76B2-497F-B3C3-58B5E0776689}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{055E1308-76B2-497F-B3C3-58B5E0776689}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{055E1308-76B2-497F-B3C3-58B5E0776689}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1D3203D6-3306-4AF7-8ABA-9006DBBF169D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D3203D6-3306-4AF7-8ABA-9006DBBF169D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D3203D6-3306-4AF7-8ABA-9006DBBF169D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D3203D6-3306-4AF7-8ABA-9006DBBF169D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1FA6C8D-2813-4035-941C-AD6CAFC979EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1FA6C8D-2813-4035-941C-AD6CAFC979EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1FA6C8D-2813-4035-941C-AD6CAFC979EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1FA6C8D-2813-4035-941C-AD6CAFC979EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8050A19A-9FE2-4839-9114-D72A90B2F573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8050A19A-9FE2-4839-9114-D72A90B2F573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8050A19A-9FE2-4839-9114-D72A90B2F573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8050A19A-9FE2-4839-9114-D72A90B2F573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AB85C4-30E0-409B-87DD-5A4EB0046697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AB85C4-30E0-409B-87DD-5A4EB0046697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AB85C4-30E0-409B-87DD-5A4EB0046697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AB85C4-30E0-409B-87DD-5A4EB0046697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{055E1308-76B2-497F-B3C3-58B5E0776689} = {6F8B499A-D5C3-474B-8506-2C92309CC44E}
+		{32AB85C4-30E0-409B-87DD-5A4EB0046697} = {6F8B499A-D5C3-474B-8506-2C92309CC44E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E487760-0060-412C-99FE-F592DFAA9A9A}

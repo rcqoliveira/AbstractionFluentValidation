@@ -3,12 +3,12 @@
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Demo.FluentValidation.Validator</RootNamespace>
-    <AssemblyName>Demo.FluentValidation.Validator</AssemblyName>
+    <RootNamespace>Demo.FluentValidationValidator</RootNamespace>
+    <AssemblyName>Demo.FluentValidationValidator</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Demo.FluentValidationDomain\Demo.FluentValidation.Domain.csproj" />
+    <ProjectReference Include="..\Demo.FluentValidationDomain\Demo.FluentValidationDomain.csproj" />
     <ProjectReference Include="..\Demo.FluentValidation\Demo.FluentValidation.csproj" />
   </ItemGroup>
 

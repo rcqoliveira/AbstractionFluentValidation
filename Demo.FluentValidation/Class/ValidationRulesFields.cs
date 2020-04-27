@@ -6,7 +6,7 @@ namespace Demo.FluentValidation
     {
         public static bool ValidCommonDate(DateTime date)
         {
-            return date != null && date >= DateTime.Now;
+            return date != null && date >= DateTime.Today;
         }
 
         public static bool ValidBirthDate(DateTime date)

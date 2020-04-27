@@ -3,9 +3,9 @@ using Demo.FluentValidationDomain;
 
 namespace Demo.FluentValidador.Validator
 {
-    public class CustomerValidator : FluentValidationExtension<Company>
+    public class CompanyValidator : FluentValidationExtension<Company>
     {
-        public CustomerValidator()
+        public CompanyValidator()
         {
             RuleFor(x => x.Name).NotEmpty().WithMessage("Please specify a name");
             RuleFor(x => x.CreationDate).Must(ValidationRulesFields.ValidCommonDate).WithMessage("Invalid creation date");
